@@ -4,11 +4,11 @@ import Link from "next/link";
 function Advert() {
   return (
     <Link href="#">
-      <div className="w-full shadow-sm hover:shadow-md rounded-md border border-blue-50 my-5 h-80 overflow-hidden">
+      <div className=" w-full shadow-sm hover:shadow-md rounded-md border border-blue-50 my-5 h-80 overflow-hidden">
         <div
-          className="w-full p-5 relative h-80"
+          className=" p-5 relative h-full  w-full cursor-pointer"
           style={{
-            backgroundImage: "url('/ui/advert.jpg')",
+            backgroundImage: "url('status/status-6.jpg')",
             objectFit: "cover",
           }}
         >
